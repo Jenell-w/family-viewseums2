@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Museum app icon" src="./assets/museum-plain.png" />
+    <MuseumInfo msg="Family ViewSeums" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MuseumInfo from "./components/MuseumInfo.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    MuseumInfo
   }
-}
+};
 </script>
 
 <style>
